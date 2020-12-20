@@ -612,9 +612,6 @@
             /*********************  Small Screens *********************/
             
             @media (min-width: 768px) and (max-width: 991px) {
-                body {
-                    background-size: cover;
-                }
                 .page-box {
                     width: 100%;
                     padding: 0;
