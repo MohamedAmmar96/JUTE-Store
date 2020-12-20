@@ -266,7 +266,7 @@
         border: none;
         outline: none;
         font-size: 22px;
-        background-color: #88d6f4;
+        background-color: #ed6c83;
         color: #fff;
         z-index: 99999;
         transition: all 0.4s ease-in-out;
@@ -274,7 +274,7 @@
     }
     
     .close-search-btn:hover {
-        background-color: #ed6c83;
+        background-color: #88d6f4;
     }
     
     .search-box {
