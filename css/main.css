@@ -54,21 +54,11 @@
         z-index: -1;
     }
     
-    html[dir=ltr] .r2 {
-        right: auto;
-        left: 0;
-    }
-    
     .r1 {
         position: fixed;
         right: 0;
         top: 60%;
         z-index: -1;
-    }
-    
-    html[dir=ltr] .r1 {
-        right: auto;
-        left: 0;
     }
     
     .l2 {
@@ -78,21 +68,11 @@
         z-index: -1;
     }
     
-    html[dir=ltr] .l2 {
-        left: auto;
-        right: 0;
-    }
-    
     .l1 {
         position: fixed;
         left: 0;
         top: 75%;
         z-index: -1;
-    }
-    
-    html[dir=ltr] .l1 {
-        left: auto;
-        right: 0;
     }
     /*==================================================================================
                                     Main Styles
