@@ -5,8 +5,8 @@
     body {
         font-family: 'Tajawal', sans-serif;
         width: 100%;
-        background: url(../images/backgrounds/body-background.png) no-repeat top center;
-        background-size: contain;
+        /* background: url(../images/backgrounds/body-background.png) no-repeat top center;
+        background-size: contain; */
     }
     
     .overflow {
@@ -46,10 +46,63 @@
         margin-right: auto;
         padding: 0 30px;
     }
+    
+    .r2 {
+        position: fixed;
+        right: 0;
+        top: 10%;
+        z-index: -1;
+    }
+    
+    html[dir=ltr] .r2 {
+        right: auto;
+        left: 0;
+    }
+    
+    .r1 {
+        position: fixed;
+        right: 0;
+        top: 60%;
+        z-index: -1;
+    }
+    
+    html[dir=ltr] .r1 {
+        right: auto;
+        left: 0;
+    }
+    
+    .l2 {
+        position: fixed;
+        left: 0;
+        top: 20%;
+        z-index: -1;
+    }
+    
+    html[dir=ltr] .l2 {
+        left: auto;
+        right: 0;
+    }
+    
+    .l1 {
+        position: fixed;
+        left: 0;
+        top: 75%;
+        z-index: -1;
+    }
+    
+    html[dir=ltr] .l1 {
+        left: auto;
+        right: 0;
+    }
     /*==================================================================================
                                     Main Styles
     ==================================================================================*/
     /***************************** Header Section Start ***************************/
+    
+    .top-bar {
+        background-color: #88d6f4;
+        padding: 0 5px;
+    }
     
     .top-bar-content {
         display: flex;
@@ -1359,10 +1412,10 @@
     /***************************** Footer Section Start ***************************/
     
     .footer {
-        background: url(../images/backgrounds/footer2.png) no-repeat;
-        background-size: cover;
-        min-height: 480px;
-        padding-top: 80px;
+        background: url(../images/backgrounds/battern3.png) repeat;
+        background-size: contain;
+        padding-top: 60px;
+        z-index: 99;
     }
     
     .footer-content {
