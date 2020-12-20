@@ -74,6 +74,18 @@
         top: 75%;
         z-index: -1;
     }
+    
+    .white-box {
+        background-color: #fff;
+    }
+    
+    .blue-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        z-index: -3;
+    }
     /*==================================================================================
                                     Main Styles
     ==================================================================================*/
@@ -647,6 +659,8 @@
     
     .main-slider {
         background-color: #fff;
+        position: relative;
+        padding-bottom: 10px;
     }
     
     .main-slider .main-item {
@@ -771,7 +785,7 @@
         padding: 90px 0 85px 0;
         background-color: #fff;
         position: relative;
-        top: -10px;
+        /* top: -10px; */
     }
     
     .cats-gallary-content {
@@ -971,7 +985,7 @@
     .sub-slider {
         background-color: #fff;
         position: relative;
-        top: -10px;
+        /* top: -10px; */
         padding-bottom: 80px;
     }
     
@@ -1232,7 +1246,7 @@
     
     .banners {
         position: relative;
-        top: -10px;
+        /* top: -10px; */
         background-color: #fff;
         padding-bottom: 75px;
     }
@@ -1290,7 +1304,7 @@
     
     .features {
         position: relative;
-        top: -10px;
+        /* top: -10px; */
         padding: 20px 0 40px 0;
         background-color: #fff;
     }
@@ -1392,12 +1406,12 @@
     /***************************** Footer Section Start ***************************/
     
     .footer {
-        background: url(../images/backgrounds/battern3.png) repeat;
+        background: url(../images/backgrounds/fo-bat.png) repeat;
         background-size: contain;
         padding-top: 60px;
         z-index: 99;
         position: relative;
-        top: -10px;
+        /* top: -10px; */
     }
     
     .footer-content {
@@ -1509,7 +1523,7 @@
     }
     
     .email-input {
-        width: 75%;
+        width: 74%;
         height: 40px;
         border: none;
         padding-right: 20px;
@@ -1553,7 +1567,7 @@
     }
     
     .subscribe {
-        width: 25%;
+        width: 26%;
         height: 40px;
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;

@@ -570,11 +570,11 @@
                     margin: 0 auto;
                 }
                 .email-input {
-                    width: 73%;
+                    width: 72%;
                 }
                 .subscribe {
                     font-size: 14px;
-                    width: 27%;
+                    width: 28%;
                 }
                 html[dir=ltr] .subscribe {
                     font-size: 13px;
