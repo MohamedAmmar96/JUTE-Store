@@ -1,9 +1,6 @@
             /**************** Extra Small Screens From 501px to 767px ****************/
             
             @media (max-width:767px) {
-                body {
-                    background-size: cover;
-                }
                 .page-box {
                     width: 100%;
                     padding: 0;
@@ -1183,9 +1180,9 @@
             /********************* Extra Large Screens *********************/
             
             @media (min-width: 1510px) {
-                body {
+                /* body {
                     background-size: cover;
-                }
+                } */
                 .main-slider .owl-carousel .owl-nav .owl-prev,
                 .main-slider .owl-carousel .owl-nav .owl-next {
                     box-shadow: 3px 3px 15px #00000012, -3px -3px 15px #00000012;

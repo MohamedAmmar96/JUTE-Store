@@ -5,8 +5,8 @@
     body {
         font-family: 'Tajawal', sans-serif;
         width: 100%;
-        /* background: url(../images/backgrounds/body-background.png) no-repeat top center;
-        background-size: contain; */
+        background: url(../images/backgrounds/body-battern.png) repeat;
+        background-size: contain;
     }
     
     .overflow {
@@ -1396,6 +1396,8 @@
         background-size: contain;
         padding-top: 60px;
         z-index: 99;
+        position: relative;
+        top: -10px;
     }
     
     .footer-content {
