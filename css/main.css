@@ -1036,6 +1036,10 @@
         transform: scale(1);
     }
     
+    .item-content {
+        padding: 0 10px;
+    }
+    
     .item-content .item-name {
         display: block;
         text-align: center;
@@ -1126,6 +1130,10 @@
     
     .item-rools .love:hover::after {
         transform: scaleX(1);
+    }
+    
+    html[dir=ltr] .item-rools .love::after {
+        transform-origin: 0% 100%;
     }
     
     .item-rools .add-to-cart {

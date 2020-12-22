@@ -302,9 +302,6 @@
                 .item-img-box {
                     height: 180px;
                 }
-                .item-content {
-                    padding: 0 10px;
-                }
                 .item-content .item-name {
                     font-size: 16px;
                     min-height: 50px;
@@ -920,9 +917,6 @@
                 }
                 .item-img-box {
                     height: 180px;
-                }
-                .item-content {
-                    padding: 0 10px;
                 }
                 .item-content .item-name {
                     font-size: 16px;
